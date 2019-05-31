@@ -5,6 +5,10 @@ ruby "2.5.1"
 
 gem "rails", "~> 5.2.3"
 
+gem "bcrypt", "3.1.12"
+
+gem "config"
+
 gem "rails-controller-testing"
 
 gem "bootstrap-sass", ">= 3.0.0"
