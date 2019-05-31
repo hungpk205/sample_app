@@ -47,5 +47,19 @@ en:
     new:
       title: "Sign up"
       name: "Sign up here"
+      username: "Full name"
+      email: "Email"
+      password: "Password"
+      re-password: "Confirm password"
+      btn-create: "Create account"
+    create:
+      success: "Welcome to the Sample App!"
+    find:
+      fail: "Not found user id = %{id}"
   helpers:
     base_title: "Ruby on Rails Tutorial"
+  shared:
+    error_messages:
+      form_error:
+        one: "The form constain 1 error"
+        other: "The form hconstain %{count} error"

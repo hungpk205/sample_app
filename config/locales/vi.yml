@@ -45,5 +45,19 @@ vi:
     new:
       title: "Đăng kí"
       name: "Đăng kí tại đây"
+      username: "Họ và tên"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      re-password: "Nhập lại mật khẩu"
+      btn-create: "Tạo tài khoản"
+    create:
+      success: "Chào mừng đến với ứng dụng mẫu!"
+    find:
+      fail: "Tài khoản có id = %{id} không tồn tại"
   helpers:
     base_title: "Hướng dẫn Ruby on Rails"
+  shared:
+    error_messages:
+      form_error:
+        one: "Trong biểu mẫu chứa 1 lỗi"
+        other: "Trong biểu mẫu chứa %{count} lỗi"
