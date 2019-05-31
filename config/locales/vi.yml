@@ -19,7 +19,7 @@ vi:
            Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
            <a href='https://www.railstutorial.org/book'> <em>Ruby on Rails Tutorial</ em></a>."
     about:
-      title: :"Giới thiệu"
+      title: "Giới thiệu"
       name: "Giới thiệu"
       content_html: <a href='https://www.railstutorial.org/'><em>Hướng dẫn Ruby on Rails</em></a>
         là một
@@ -28,3 +28,5 @@ vi:
         để dạy phát triển web với
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là một ứng dụng mẫu cho hướng dẫn
+  helpers:
+    base_title: "Hướng dẫn Ruby on Rails"

@@ -30,3 +30,5 @@ en:
         to teach web development with
         <a href='http://rubyonrails.org/'>Ruby on Rails</a>.
         This is the sample application for the tutorial."
+  helpers:
+    base_title: "Ruby on Rails Tutorial"
