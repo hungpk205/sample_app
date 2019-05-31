@@ -1,0 +1,30 @@
+vi:
+  layouts:
+    application:
+      title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+      language_en: "Tiếng Anh"
+      language_vi: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      name: "Ứng dụng mẫu"
+      content_html: "Đây là trang chủ
+        <a href='https://www.railstutorial.org/'>Hướng dẫn Ruby on Rails</a>
+        ứng dụng mẫu."
+    help:
+      title: "Hỗ trợ"
+      name: "Hỗ trợ"
+      content_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+           <a href='https://www.railstutorial.org/help'> Rails Tutorial help section </a>.
+           Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+           <a href='https://www.railstutorial.org/book'> <em>Ruby on Rails Tutorial</ em></a>."
+    about:
+      title: :"Giới thiệu"
+      name: "Giới thiệu"
+      content_html: <a href='https://www.railstutorial.org/'><em>Hướng dẫn Ruby on Rails</em></a>
+        là một
+        <a href="https://www.railstutorial.org/book">quyển sách</a> và
+        <a href="http://screencasts.railstutorial.org/">chuỗi các screencast</a>
+        để dạy phát triển web với
+        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        Đây là một ứng dụng mẫu cho hướng dẫn
