@@ -4,13 +4,22 @@ vi:
       title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
       language_en: "Tiếng Anh"
       language_vi: "Tiếng Việt"
+    header:
+      btn-home: "Trang chủ"
+      btn-help: "Trợ giúp"
+      btn-login: "Đăng nhập"
+    footer:
+      btn-about: "Giới thiệu"
+      btn-contact: "Liên hệ"
   static_pages:
     home:
       title: "Trang chủ"
-      name: "Ứng dụng mẫu"
-      content_html: "Đây là trang chủ
-        <a href='https://www.railstutorial.org/'>Hướng dẫn Ruby on Rails</a>
-        ứng dụng mẫu."
+      name: "Chào mừng đến với ứng dụng mẫu"
+      content_html:
+          "Đây là trang chủ
+          <a href='https://www.railstutorial.org/'>Hướng dẫn Ruby on Rails</a>
+          ứng dụng mẫu."
+      btn-sign-up: "Đăng ký ngay!"
     help:
       title: "Hỗ trợ"
       name: "Hỗ trợ"
@@ -28,5 +37,13 @@ vi:
         để dạy phát triển web với
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là một ứng dụng mẫu cho hướng dẫn
+    contact:
+      title: "Liên hệ"
+      name: "Liên hệ"
+      content_html: "Liên hệ với tôi qua trang web: <a href='https://www.facebook.com/PKHung.IT.DUT', title = 'Phan Kiều Hưng'>facebook.com</a>"
+  users:
+    new:
+      title: "Đăng kí"
+      name: "Đăng kí tại đây"
   helpers:
     base_title: "Hướng dẫn Ruby on Rails"

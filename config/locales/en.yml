@@ -4,13 +4,22 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
       language_en: "English"
       language_vi: "Vietnamese"
+    header:
+      btn-home: "Home"
+      btn-help: "Help"
+      btn-login: "Login"
+    footer:
+      btn-about: "About"
+      btn-contact: "Contact"
   static_pages:
     home:
       title: "Home"
-      name: "Sample App"
-      content_html: "This is the home page for the
-        <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
-        sample application."
+      name: "Welcome to the sample app"
+      content_html:
+        "This is the home page for the
+          <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
+          sample application."
+      btn-sign-up: "Sign-up now!"
     help:
       title: "Help"
       name: "Help"
@@ -30,5 +39,13 @@ en:
         to teach web development with
         <a href='http://rubyonrails.org/'>Ruby on Rails</a>.
         This is the sample application for the tutorial."
+    contact:
+      title: "Contact"
+      name: "Contact"
+      content_html: "Contact with me via <a href='https://www.facebook.com/PKHung.IT.DUT', title = 'Phan Kiều Hưng'>facebook.com</a>"
+  users:
+    new:
+      title: "Sign up"
+      name: "Sign up here"
   helpers:
     base_title: "Ruby on Rails Tutorial"
