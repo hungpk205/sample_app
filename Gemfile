@@ -11,6 +11,10 @@ gem "config"
 
 gem "rails-controller-testing"
 
+gem "jquery-rails", ">= 4.3.3"
+
+gem "rails-ujs", "~> 0.1.0"
+
 gem "bootstrap-sass", ">= 3.0.0"
 
 gem "puma", "~> 3.11"
