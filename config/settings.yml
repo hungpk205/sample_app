@@ -5,7 +5,10 @@ users:
     max_length: 255
   password:
     min_length: 6
+  limit: 10
 css:
   gravatar:
     size: 80
+  gravatar_index:
+    size: 50
 remember: "1"

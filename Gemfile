@@ -7,6 +7,12 @@ gem "rails", "~> 5.2.3"
 
 gem "bcrypt", "3.1.12"
 
+gem "faker", "1.9.2"
+
+gem "will_paginate"
+
+gem "bootstrap-will_paginate"
+
 gem "config"
 
 gem "rails-controller-testing"

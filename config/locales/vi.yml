@@ -47,6 +47,11 @@ vi:
       name: "Liên hệ"
       content_html: "Liên hệ với tôi qua trang web: <a href='https://www.facebook.com/PKHung.IT.DUT', title = 'Phan Kiều Hưng'>facebook.com</a>"
   users:
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn không?"
+    index:
+      title: "Tất cả người dùng"
     new:
       title: "Đăng kí"
       name: "Đăng kí tại đây"
@@ -59,6 +64,18 @@ vi:
       success: "Chào mừng đến với ứng dụng mẫu!"
     find:
       fail: "Tài khoản có id = %{id} không tồn tại"
+    edit:
+      title: "Chỉnh sửa trang cá nhân"
+      name: "Chỉnh sửa thông tin cá nhân"
+      btn-save: "Lưu thay đổi"
+      change-avt: "Thay đổi"
+    update:
+      success: "Thay đổi thành công"
+    delete:
+      success: "Xóa thành công người dùng có id %{id}"
+      fail: "Không tìm thấy người dùng có id %{id}"
+    login:
+      require_login: "Vui lòng đăng nhập"
   helpers:
     base_title: "Hướng dẫn Ruby on Rails"
   shared:
