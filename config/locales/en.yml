@@ -8,6 +8,11 @@ en:
       btn-home: "Home"
       btn-help: "Help"
       btn-login: "Login"
+      menu-account: "Account"
+      btn-user: "User"
+      btn-profile: "Profile"
+      btn-setting: "Setting"
+      btn-logout: "Logout"
     footer:
       btn-about: "About"
       btn-contact: "Contact"
@@ -63,3 +68,13 @@ en:
       form_error:
         one: "The form constain 1 error"
         other: "The form hconstain %{count} error"
+  sessions:
+    new:
+      title: "Login"
+      email: "Email"
+      password: "Password"
+      btn-submit: "Login"
+      new-user: "New user?"
+      btn-regist: "Sign up now!"
+    create:
+      fail: "Invalid email/password combination"

@@ -8,6 +8,11 @@ vi:
       btn-home: "Trang chủ"
       btn-help: "Trợ giúp"
       btn-login: "Đăng nhập"
+      btn-user: "Người dùng"
+      menu-account: "Tài khoản"
+      btn-profile: "Cá nhân"
+      btn-setting: "Cài đặt"
+      btn-logout: "Đăng xuất"
     footer:
       btn-about: "Giới thiệu"
       btn-contact: "Liên hệ"
@@ -61,3 +66,13 @@ vi:
       form_error:
         one: "Trong biểu mẫu chứa 1 lỗi"
         other: "Trong biểu mẫu chứa %{count} lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      btn-submit: "Đăng nhập"
+      new-user: "Người dùng mới?"
+      btn-regist: "Đăng kí ngay!"
+    create:
+      fail: "Mật khẩu hoặc email không chính xác!"
