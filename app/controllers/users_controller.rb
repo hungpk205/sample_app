@@ -15,8 +15,8 @@ class UsersController < ApplicationController
 
   def show
     return if @user
-    flash[:warning] = t "users.find.fail", id: params[:id]
-    redirect_to root_path
+    flash[:warning] = t("users.find.fail", id: params[:id])
+    redirect_to root_path && return unless User.where(actiavted: true)
   end
 
   def create
