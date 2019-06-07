@@ -12,3 +12,8 @@ css:
   gravatar_index:
     size: 50
 remember: "1"
+config:
+  production:
+    host: "sample-app-hpk.herokuapp.com"
+    address: "smtp.sendgrid.net"
+    port: "587"

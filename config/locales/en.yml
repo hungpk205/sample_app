@@ -64,6 +64,7 @@ en:
       btn-create: "Create account"
     create:
       success: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account"
     find:
       fail: "Not found user id = %{id}"
     edit:
@@ -96,3 +97,14 @@ en:
       remember_me: "Remember me"
     create:
       fail: "Invalid email/password combination"
+    login:
+      message_not_activate: "Account not activated. Check your email for the activation link."
+  account:
+    active:
+      success: "Account activated!"
+      fail: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      txt: "Welcome to the Sample App, Click on the link below to active your account:"
+      link: "Active"

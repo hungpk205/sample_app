@@ -62,6 +62,7 @@ vi:
       btn-create: "Tạo tài khoản"
     create:
       success: "Chào mừng đến với ứng dụng mẫu!"
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
     find:
       fail: "Tài khoản có id = %{id} không tồn tại"
     edit:
@@ -94,3 +95,14 @@ vi:
       remember_me: "Lưu tài khoản"
     create:
       fail: "Mật khẩu hoặc email không chính xác!"
+    login:
+      message_not_activate: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+  account:
+    active:
+      success: "Tài khoản đã được kích hoạt"
+      fail: "Không xác minh được đường dẫn kích hoạt"
+  user_mailer:
+    account_activation:
+      hi: "Chào"
+      txt: "Chào mừng bạn đến với ứng dụng mẫu, Bấm vào dường dẫn dưới đây để kích hoạt tài khoản của bạn:"
+      link: "Kích hoạt"
