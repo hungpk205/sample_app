@@ -8,3 +8,4 @@ users:
 css:
   gravatar:
     size: 80
+remember: "1"

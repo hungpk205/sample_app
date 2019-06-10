@@ -76,5 +76,6 @@ en:
       btn-submit: "Login"
       new-user: "New user?"
       btn-regist: "Sign up now!"
+      remember_me: "Remember me"
     create:
       fail: "Invalid email/password combination"

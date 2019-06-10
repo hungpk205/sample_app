@@ -74,5 +74,6 @@ vi:
       btn-submit: "Đăng nhập"
       new-user: "Người dùng mới?"
       btn-regist: "Đăng kí ngay!"
+      remember_me: "Lưu tài khoản"
     create:
       fail: "Mật khẩu hoặc email không chính xác!"
