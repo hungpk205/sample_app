@@ -49,6 +49,11 @@ en:
       name: "Contact"
       content_html: "Contact with me via <a href='https://www.facebook.com/PKHung.IT.DUT', title = 'Phan Kiều Hưng'>facebook.com</a>"
   users:
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    index:
+      title: "All users"
     new:
       title: "Sign up"
       name: "Sign up here"
@@ -61,6 +66,18 @@ en:
       success: "Welcome to the Sample App!"
     find:
       fail: "Not found user id = %{id}"
+    edit:
+      title: "Edit profile"
+      name: "Update your profile"
+      btn-save: "Save changes"
+      change-avt: "change"
+    update:
+      success: "Change successful"
+    delete:
+      success: "Delete success user id %{id}"
+      fail: "Not found user id %{id}"
+    login:
+      require_login: "Please login"
   helpers:
     base_title: "Ruby on Rails Tutorial"
   shared:
