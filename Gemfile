@@ -9,6 +9,8 @@ gem "bcrypt", "3.1.12"
 
 gem "faker", "1.9.2"
 
+gem "figaro"
+
 gem "will_paginate"
 
 gem "bootstrap-will_paginate"
@@ -55,6 +57,10 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "chromedriver-helper"
   gem "selenium-webdriver"
+end
+
+group :production do
+  gem "pg"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
