@@ -93,6 +93,7 @@ vi:
       new-user: "Người dùng mới?"
       btn-regist: "Đăng kí ngay!"
       remember_me: "Lưu tài khoản"
+      forgot_password: "(Quên mật khẩu)"
     create:
       fail: "Mật khẩu hoặc email không chính xác!"
     login:
@@ -104,5 +105,33 @@ vi:
   user_mailer:
     account_activation:
       hi: "Chào"
-      txt: "Chào mừng bạn đến với ứng dụng mẫu, Bấm vào dường dẫn dưới đây để kích hoạt tài khoản của bạn:"
+      txt: "Chào mừng đến với ứng dụng mẫu, Bấm vào đường dẫn phía dưới để kích hoạt tài khoản:"
       link: "Kích hoạt"
+      subject: "Kích hoạt tài khoản"
+    password_reset:
+      link: "Tạo lại mật khẩu"
+      subject: "Đặt lại mật khẩu"
+      txt1: "Bấm vào đường dẫn phía dưới để kích hoạt tài khoản:"
+      txt2: "Đường dẫn có hiệu lực trong 2 giờ.
+        Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      btn-submit: "Xác nhận"
+    edit:
+      title: "Tạo lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      btn_update_password: "Cập nhật mật khẩu"
+    email:
+      sent_email: "Mật khẩu đã được gửi thông qua email"
+      not_found: "Không tìm thấy email"
+    update:
+      empty_password: "không được để trống"
+      success_reset: "Mật khẩu được cập nhật thành công"
+    load_user:
+      not_found_user: "Không tìm thấy người dùng"
+    create:
+      not_activate_account: "Tài khoản của bạn chưa được kích hoạt. Vui lòng kiểm tra lại trong email"
+    check_expiration:
+      expired_password: "Đường dẫn tạo lại mật khẩu đã hết hạn"

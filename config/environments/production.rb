@@ -74,7 +74,7 @@ Rails.application.configure do
   ActionMailer::Base.smtp_settings = {
     address: Settings.config.production.address,
     port: Settings.config.production.port,
-    authentication: plain,
+    authentication: :plain,
     user_name: ENV["user_name"],
     password: ENV["password"],
     domain: "heroku.com",

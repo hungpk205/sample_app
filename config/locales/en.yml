@@ -95,6 +95,7 @@ en:
       new-user: "New user?"
       btn-regist: "Sign up now!"
       remember_me: "Remember me"
+      forgot_password: "(forgot password)"
     create:
       fail: "Invalid email/password combination"
     login:
@@ -108,3 +109,31 @@ en:
       hi: "Hi"
       txt: "Welcome to the Sample App, Click on the link below to active your account:"
       link: "Active"
+      subject: "Account activation"
+    password_reset:
+      link: "Password reset"
+      subject: "Password resets"
+      txt1: "To reset your password click the link below:"
+      txt2: "This link will expire in two hours.
+        If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      title: "Forgot password"
+      btn-submit: "Submit"
+    edit:
+      title: "Password reset"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      btn_update_password: "Update password"
+    email:
+      sent_email: "Email sent with password reset instructions"
+      not_found: "Email address not founds"
+    update:
+      empty_password: "can't not blank"
+      success_reset: "Update password success"
+    load_user:
+      not_found_user: "Not found user"
+    create:
+      not_activate_account: "Your account is not activate. Check your email please!"
+    check_expiration:
+      expired_password: "The link reset password had been expirated"
