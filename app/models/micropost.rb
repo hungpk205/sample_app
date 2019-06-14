@@ -7,6 +7,7 @@ class Micropost < ApplicationRecord
     length: {maximum: Settings.microposts.content.length}
   validate :picture_size
   scope :sort_created, ->{order created_at: :desc}
+  scope :new_feed, ->(ids){where(user_id: ids)}
 
   private
   def picture_size

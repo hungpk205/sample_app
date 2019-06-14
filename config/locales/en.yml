@@ -67,7 +67,7 @@ en:
       success: "Welcome to the Sample App!"
       check_email: "Please check your email to activate your account"
     find:
-      fail: "Not found user id = %{id}"
+      fail: "Not found user"
     edit:
       title: "Edit profile"
       name: "Update your profile"
@@ -76,23 +76,41 @@ en:
     update:
       success: "Change successful"
     delete:
-      success: "Delete success user id %{id}"
-      fail: "Not found user id %{id}"
+      success: "Delete success"
+      fail: "Not found"
     login:
       require_login: "Please login"
+    follow:
+      btn_follow: "Follow"
+    unfollow:
+      btn_unfollow: "Unfollow"
+    show:
+      micropost: "Microposts"
+    following:
+      title_following: "Following"
+    followers:
+      title_followers: "Followers"
+    show_follow:
+      txt_profile: "View profile"
+      txt_micropost:
+        one: "Micropost: 1"
+        other: "Microposts: %{count}"
   helpers:
     base_title: "Ruby on Rails Tutorial"
   shared:
     error_messages:
       form_error:
         one: "The form constain 1 error"
-        other: "The form constain %{count} error"
+        other: "The form constain %{count} errors"
     micropost_form:
       compose_new_micropost: "Compose new micropost here..."
       btn_submit: "Post"
     user_info:
       view_profile: "view my profile"
       txt_micropost: "microposts"
+    stats:
+      txt_following: "following"
+      txt_follower: "follower"
   sessions:
     new:
       title: "Login"
@@ -157,3 +175,8 @@ en:
       fail: "Delete post fail!"
     upload:
       over_size: "Maximum file size in 5MB. Please choose a smaller file."
+  ralationships:
+    create:
+      not_found_user: "Not found user"
+    destroy:
+      not_found_user: "Not found user"

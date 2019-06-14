@@ -11,6 +11,8 @@ css:
     size: 80
   gravatar_index:
     size: 50
+  gravatar_follow:
+    size: 30
 remember: "1"
 config:
   production:

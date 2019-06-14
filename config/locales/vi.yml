@@ -65,7 +65,7 @@ vi:
       success: "Chào mừng đến với ứng dụng mẫu!"
       check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
     find:
-      fail: "Tài khoản có id = %{id} không tồn tại"
+      fail: "Tài khoản không tồn tại"
     edit:
       title: "Chỉnh sửa trang cá nhân"
       name: "Chỉnh sửa thông tin cá nhân"
@@ -74,10 +74,25 @@ vi:
     update:
       success: "Thay đổi thành công"
     delete:
-      success: "Xóa thành công người dùng có id %{id}"
-      fail: "Không tìm thấy người dùng có id %{id}"
+      success: "Xóa thành công người dùng"
+      fail: "Không tìm thấy người dùng"
     login:
       require_login: "Vui lòng đăng nhập"
+    follow:
+      btn_follow: "Theo dõi"
+    unfollow:
+      btn_unfollow: "Bỏ theo dõi"
+    show:
+      micropost: "Danh sách bài vết"
+    following:
+      title_following: "Đang theo dõi"
+    followers:
+      title_followers: "Người theo dõi"
+    show_follow:
+      txt_profile: "Xem trang cá nhân"
+      txt_micropost:
+        one: "Số bài viết : 1"
+        other: "Số bài viết : %{count}"
   helpers:
     base_title: "Hướng dẫn Ruby on Rails"
   shared:
@@ -91,6 +106,9 @@ vi:
     user_info:
       view_profile: "Trang cá nhân"
       txt_micropost: "bài viết"
+    stats:
+      txt_following: "người bạn đang theo dõi"
+      txt_follower: "người đang theo dõi bạn"
   sessions:
     new:
       title: "Đăng nhập"
@@ -155,3 +173,8 @@ vi:
       fail: "Bị lỗi khi xóa bài viết, thử lại sau"
     upload:
       over_size: "Ảnh của bạn quá lớn. Vui lòng chọn ảnh có kích thước nhỏ hơn 5MB."
+  ralationships:
+    create:
+      not_found_user: "Không tìm thấy người dùng"
+    destroy:
+      not_found_user: "Không tìm thấy người dùng"
