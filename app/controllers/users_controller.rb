@@ -14,9 +14,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-    flash[:warning] = t("users.find.fail", id: params[:id])
     redirect_to root_path && return unless User.where(actiavted: true)
+    @microposts = @user.microposts.sort_created.paginate page: params[:page],
+      per_page: Settings.microposts.limit
   end
 
   def create
@@ -65,13 +65,6 @@ class UsersController < ApplicationController
     return if @user
     flash[:warning] = t("users.find.fail", id: params[:id])
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "users.login.require_login"
-    redirect_to login_url
   end
 
   def user_params

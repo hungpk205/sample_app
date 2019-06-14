@@ -25,6 +25,7 @@ en:
           <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
           sample application."
       btn-sign-up: "Sign-up now!"
+      micropost_feed: "Micropost Feed"
     help:
       title: "Help"
       name: "Help"
@@ -85,7 +86,13 @@ en:
     error_messages:
       form_error:
         one: "The form constain 1 error"
-        other: "The form hconstain %{count} error"
+        other: "The form constain %{count} error"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost here..."
+      btn_submit: "Post"
+    user_info:
+      view_profile: "view my profile"
+      txt_micropost: "microposts"
   sessions:
     new:
       title: "Login"
@@ -137,3 +144,16 @@ en:
       not_activate_account: "Your account is not activate. Check your email please!"
     check_expiration:
       expired_password: "The link reset password had been expirated"
+  microposts:
+    micropost:
+      btn_delete: "delete"
+      confirm: "You sure?"
+      picture_size: "Should be less than 5MB"
+    create:
+      success: "Create post success!"
+      fail: "Create post fail!"
+    destroy:
+      success: "Delete post success!"
+      fail: "Delete post fail!"
+    upload:
+      over_size: "Maximum file size in 5MB. Please choose a smaller file."

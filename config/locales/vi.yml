@@ -25,6 +25,7 @@ vi:
           <a href='https://www.railstutorial.org/'>Hướng dẫn Ruby on Rails</a>
           ứng dụng mẫu."
       btn-sign-up: "Đăng ký ngay!"
+      micropost_feed: "Danh sách bài viết"
     help:
       title: "Hỗ trợ"
       name: "Hỗ trợ"
@@ -84,6 +85,12 @@ vi:
       form_error:
         one: "Trong biểu mẫu chứa 1 lỗi"
         other: "Trong biểu mẫu chứa %{count} lỗi"
+    micropost_form:
+      compose_new_micropost: "Tạo bài viết mới ở đây nè..."
+      btn_submit: "Đăng bài"
+    user_info:
+      view_profile: "Trang cá nhân"
+      txt_micropost: "bài viết"
   sessions:
     new:
       title: "Đăng nhập"
@@ -135,3 +142,16 @@ vi:
       not_activate_account: "Tài khoản của bạn chưa được kích hoạt. Vui lòng kiểm tra lại trong email"
     check_expiration:
       expired_password: "Đường dẫn tạo lại mật khẩu đã hết hạn"
+  microposts:
+    micropost:
+      btn_delete: "Xóa"
+      confirm: "Bạn chắc chắn không?"
+      picture_size: "Hình ảnh vượt quá 5MB"
+    create:
+      success: "Tạo bài viết thành công!"
+      fail: "Tạo bài viết thất bại!"
+    destroy:
+      success: "Xóa bài viết thành công!"
+      fail: "Bị lỗi khi xóa bài viết, thử lại sau"
+    upload:
+      over_size: "Ảnh của bạn quá lớn. Vui lòng chọn ảnh có kích thước nhỏ hơn 5MB."
