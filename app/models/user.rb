@@ -18,6 +18,7 @@ class User < ApplicationRecord
     presence: true,
     allow_nil: true
   scope :activated, ->{where activated: true}
+  has_many :microposts, dependent: :destroy
 
   class << self
     def digest string
@@ -57,6 +58,10 @@ class User < ApplicationRecord
 
   def downcase_email
     email.downcase!
+  end
+
+  def feed
+    self.microposts.sort_created
   end
 
   def forget
