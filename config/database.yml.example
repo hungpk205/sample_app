@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: sample-app-hpk_production
+  username: sample-app-hpk
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
