@@ -32,6 +32,18 @@ class UsersController < ApplicationController
 
   def edit; end
 
+  def following
+    @title = t ".title_following"
+    @users = @user.following.paginate(page: params[:page])
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".title_followers"
+    @users = @user.followers.paginate(page: params[:page])
+    render :show_follow
+  end
+
   def update
     if @user.update_attributes user_params
       flash[:success] = t "users.update.success"
