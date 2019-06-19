@@ -3,7 +3,7 @@ en:
     application:
       title: "Ruby on Rails Tutorial Sample App"
       language_en: "English"
-      language_vi: "Vietnamese"
+      language_vi: "Tiếng Việt"
     header:
       btn-home: "Home"
       btn-help: "Help"
@@ -180,3 +180,6 @@ en:
       not_found_user: "Not found user"
     destroy:
       not_found_user: "Not found user"
+  will_paginate:
+    next_label: "Next"
+    previous_label: "Preview"

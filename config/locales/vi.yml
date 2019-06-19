@@ -2,7 +2,7 @@ vi:
   layouts:
     application:
       title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
-      language_en: "Tiếng Anh"
+      language_en: "English"
       language_vi: "Tiếng Việt"
     header:
       btn-home: "Trang chủ"
@@ -178,3 +178,6 @@ vi:
       not_found_user: "Không tìm thấy người dùng"
     destroy:
       not_found_user: "Không tìm thấy người dùng"
+  will_paginate:
+    next_label: "Sau"
+    previous_label: "Trước"
