@@ -69,15 +69,15 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = Settings.config.production.host
+  host = "sample-app-hpk.herokuapp.com"
   config.action_mailer.default_url_options = {host: host}
   ActionMailer::Base.smtp_settings = {
-    address: Settings.config.production.address,
-    port: Settings.config.production.port,
-    authentication: :plain,
-    user_name: ENV["user_name"],
-    password: ENV["password"],
-    domain: "heroku.com",
+    address: "smtp.gmail.com",
+    domain: "gmail.com",
+    port: 587,
+    authentication: "plain",
+    user_name: ENV["USERNAME"],
+    password: ENV["PASSWORD"],
     enable_starttls_auto: true
   }
 

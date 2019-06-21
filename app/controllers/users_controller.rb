@@ -59,7 +59,7 @@ class UsersController < ApplicationController
     else
       flash[:warning] = t "users.delete.fail", id: params[:id]
     end
-    redirect_to users_path
+    redirect_to request.referer
   end
 
   private

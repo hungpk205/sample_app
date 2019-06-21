@@ -17,8 +17,9 @@ remember: "1"
 config:
   production:
     host: "sample-app-hpk.herokuapp.com"
-    address: "smtp.sendgrid.net"
-    port: "587"
+    address: "smtp.gmail.com"
+    domain: "mail.google.com"
+    port: 587
 expirate_hour: 2
 microposts:
   content:
